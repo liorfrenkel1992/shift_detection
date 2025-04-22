@@ -12,7 +12,7 @@ To run this project, you'll need to install Python packages using:
 pip install -r requirements.txt
 ```
 
-All models' checkpoints are available here:
+All models' checkpoints and data are available here:
 
 https://www.dropbox.com/scl/fo/mdtolpxn3jf37311nitlw/AEsCQHK0EAVRPuqJSpvDGWo?rlkey=sskg3pnwh1ppq5h77hxof7zk4&st=x1ejei77&dl=0
 
