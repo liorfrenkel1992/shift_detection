@@ -1,7 +1,7 @@
 Automatic Detection of Domain Shifts in Speech Enhancement Systems Using Confidence-Based Metrics
 ==============================
 
-A short description of the project.
+An original implementation of the paper: "Automatic Detection of Domain Shifts in Speech Enhancement Systems Using Confidence-Based Metrics, Frenkel et al., ICASSP 2025".
 
 Project Organization
 ------------
