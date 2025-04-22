@@ -10,7 +10,7 @@ To run this project, you'll need to install Python packages using:
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 All models' checkpoints are available here:
 
