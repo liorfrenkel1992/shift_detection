@@ -1,0 +1,64 @@
+defaults:
+  - override hydra/job_logging: colorlog
+  - override hydra/hydra_logging: colorlog
+
+#  =========== data-sets ===============
+
+speech_type: librispeech  # librispeech/dns
+noise_type: wham # wham / musan / dns
+
+speech_type_target: dns  # librispeech/dns
+noise_type_target: dns # wham / musan / dns
+
+speech_type_test: librispeech  # librispeech/dns
+noise_type_test: wham # wham / musan / dns
+
+speech_type_target_test: dns  # librispeech/dns
+noise_type_target_test: dns # wham / musan / dns
+
+data_path : data/processed
+
+# =============== DEBUG ===============
+_d: False
+
+# ================ DATA ======================
+
+fs : 16000
+ 
+window_size: 512  # FFT length
+overlap: 0.5  # Overlap of STFT window
+mode: train
+
+# ================ CUDA ======================
+
+device: cuda
+gpus : -1
+
+# ========= ModelCheckPoints =========
+
+patience : 50
+save_top_k: 5
+save_last: True
+ckpt_monitor: 'val_loss'
+
+check_val_every_n_epoch : 1
+precision : 16
+progress_bar_refresh_rate : 5
+log_gpu_memory : False
+seed: 2036
+eps: 1e-6
+num_workers: 28
+verbose: 1
+
+# ======= Optimizer ===========
+
+optimizer : Adam # Adam / sgd / AdamW
+lr: 1e-4
+epochs: 500
+batch_size: 64
+beta1: 0.9
+beta2: 0.999
+momentum: 0.9
+
+supervised_target: False
+k_value: 20
