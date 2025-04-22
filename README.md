@@ -3,7 +3,16 @@ Automatic Detection of Domain Shifts in Speech Enhancement Systems Using Confide
 
 An original implementation of the paper: "Automatic Detection of Domain Shifts in Speech Enhancement Systems Using Confidence-Based Metrics, Frenkel et al., ICASSP 2025".
 
-All models' checkpoints are avaliable here:
+Requirements
+------------
+
+To run this project, you'll need to install Python packages using:
+
+```bash
+pip install -r requirements.txt
+
+
+All models' checkpoints are available here:
 
 https://www.dropbox.com/scl/fo/mdtolpxn3jf37311nitlw/AEsCQHK0EAVRPuqJSpvDGWo?rlkey=sskg3pnwh1ppq5h77hxof7zk4&st=x1ejei77&dl=0
 
