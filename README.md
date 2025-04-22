@@ -1,4 +1,4 @@
-shift_detection
+Automatic Detection of Domain Shifts in Speech Enhancement Systems Using Confidence-Based Metrics
 ==============================
 
 A short description of the project.
@@ -54,4 +54,16 @@ Project Organization
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+If you use our code in a scientific publication, we would appreciate using the following citation:
+
+```bibtex
+@inproceedings{frankel2025automatic,
+  title={Automatic Detection of Domain Shifts in Speech Enhancement Systems Using Confidence-Based Metrics},
+  author={Frankel, Lior and Chazan, Shlomo E and Goldberger, Jacob},
+  booktitle={ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1--5},
+  year={2025},
+  organization={IEEE}
+}
+
+
