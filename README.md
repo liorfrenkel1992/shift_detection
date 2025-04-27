@@ -3,6 +3,9 @@ Automatic Detection of Domain Shifts in Speech Enhancement Systems Using Confide
 
 An original implementation of the paper: "Automatic Detection of Domain Shifts in Speech Enhancement Systems Using Confidence-Based Metrics, Frenkel et al., ICASSP 2025".
 
+Link to paper:
+https://ieeexplore.ieee.org/abstract/document/10888825
+
 Requirements
 ------------
 
